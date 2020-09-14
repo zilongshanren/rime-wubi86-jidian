@@ -8,15 +8,11 @@
 
 patch:
   schema_list:
-    - schema: wubi86_jidian
-    - schema: numbers
     - schema: wubi86_jidian_pinyin
-    - schema: wubi86_jidian_trad
-    - schema: pinyin_simp
 
   # Menu
   menu:
-    page_size: 3                    # 候选词数量
+    page_size: 9                    # 候选词数量
   switcher:
     hotkeys:
       - "Control+0"
